@@ -1,0 +1,16 @@
+docker ps = 
+docker ps --all = เอาท้ังหมดออกมาแสดง
+docker stop ตามด้วยชื่อ CONTAINER ID
+docker run busybox ping google.com
+docker exec -it  b7305755f99a bash
+docker run -p 80:80  nginx
+docker run -p 9000:80  nginx
+http://localhost:9000
+
+docker run --name mynginx -d -p 3000:80 nginx
+docker logs
+docker logs -f
+docker system info 
+docker system df
+
+docker image inspect nginx
